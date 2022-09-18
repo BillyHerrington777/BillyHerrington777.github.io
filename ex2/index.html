@@ -1,31 +1,33 @@
 <!DOCTYPE html>
 <html lang="ru">
-<head>
-<style>
-  .logo-img{
-    width: 400px;
-  }
-	body{
-	background-color:hsla(120, 52%, 65%, 0.5);}
-	</style>
+  <head>
+    <style>
+      .main-header{
+      width: 100px;
+        }
+	    body{
+	      background-color:hsla(120, 39%, 30%, 0.5);}
+    </style>
     <meta charset="UTF-8">
     <title> Упражнение 2 </title>
+    <link rel="stylesheet" href="style.css">
  </head>
  <body>
-  <header>
+    <header id="vse">
+        <div id="main-header">
+          <img id="main-logo" src="логотип.png" alt="Logo">
+          <h1 id="main-name"> Roflan Company</h1>
+        </div>
     <nav>
-      <div class="logo-holder">
-        <img src="логотип.png" alt="Logo"
-          class="logo-img";>
-          <ul>
-            <li class="main-menu item">Главная</li>
-            <li class="main-menu item">Товары</li>
-            <li class="main-menu item">Контакты</li>
-            <li class="main-menu item">Тех.поддержка</li>
-          </ul>
+      <div id="main-menu">
+        <a class="menu-main" href="#hyperlinks">Список гиперссылок</a>
+        <a class="menu-main" href="#table">HTML-таблица</a>
+        <a class="menu-main" href="#htmlForm">HTML-форма</a>
+        <a class="menu-main" href="#footer">Подвал</a>
       </div>
     </nav>
   </header>
+
     <h3 id="hyperlinks">Гиперссылки:</h3>
     <ol>
       <li><a href="http://example.com">HTTP пример</a></li>
@@ -68,6 +70,44 @@
       <li><a href="/">Сокращенная на главную</a></li>
       <li><a href="/about/about">Сокращенная на внутреннюю</a></li>
     </ol>
+
+
+    <h3 id="table">HTML-таблица</h3>
+      <table>
+        <thead>
+          <tr class="first">
+            <th>1 колонка</th>
+            <th>2 колонка</th>
+            <th>3 колонка</th>
+            <th>4 колонка</th>
+          </tr>
+        </thead>
+
+        <tbody>
+          <tr class="second">
+            <td colspan="4">4 ячейки</td>
+          </tr>
+          <tr class="first">
+            <td>1 колонка</td>
+            <td>2 колонка</td>
+            <td>3 колонка</td>
+            <td>4 колонка</td>
+          </tr>
+          <tr class="second">
+            <td colspan="3">3 ячейки</td>
+            <td>4 колонка</td>
+          </tr>
+          <tr class="first">
+            <td colspan="4">4 ячейки</td>
+          </tr>
+          <tr class="second">
+            <td>1 колонка</td>
+            <td colspan="2">2 ячейки</td>
+            <td>4 колонка</td>
+          </tr>
+        </tbody>
+      </table>
+
 
     <h3 id="htlmlForm">HTML-форма:</h3>
     <form action="https://mail.ru/" method="POST">
@@ -141,5 +181,9 @@
         <input type="submit" value="Отправить">
       </label>
     </form>
+    <footer>
+      <span id="footer">(c) RoflanEB (Сердюков Артем) <br> 2022</span>
+    </footer>
+
   </body>
 </html>
