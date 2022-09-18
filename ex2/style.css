@@ -35,13 +35,13 @@ header {
     width: 100%;
 }
 
-#header img {
+#vse img {
     float: left;
 }
 
-#header h1 {
+#vse h1 {
     float: left;
-    margin-top: 120px; 
+    margin-top: 200px; 
 }
 
 #main-menu {
@@ -53,7 +53,7 @@ header {
 }
 
 #main-name {
-    font-size: 220%;
+    font-size: 350%;
     color: #99c0a6;
 }
 
