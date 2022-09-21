@@ -73,7 +73,7 @@ main {
 #end{
     background-color: #104827;
 }
-main-header {
+#main-header {
     max-width:960px;
     margin:0 auto;
 }
