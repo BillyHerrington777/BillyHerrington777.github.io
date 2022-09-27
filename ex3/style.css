@@ -84,12 +84,26 @@ main {
 }
 #absolute{
     display: flex;
-    flex-direction: column-reverse;
+    flex-direction: column;
 }
+#formwrapp{
+    order: 1;
+}
+#tablewrapp{
+    order: 2;
+}
+
+ 
+
 @media screen and (min-width:800px){
-    #absolute{
-        flex-direction: column;
+
+    #formwrapp{
+        order: 2;
     }
+    #tablewrapp{
+        order: 1;
+    }
+    
     #vse h1 {
         margin-top: 140px; 
     }
