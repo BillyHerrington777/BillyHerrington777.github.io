@@ -1,0 +1,113 @@
+
+body{
+    margin: 0;
+    font-family: roboto, sans-serif;
+}
+.second{
+    background-color: chartreuse;
+}
+.first{
+    background-color: rgb(0, 171, 244);
+}
+table{
+    text-align: center;
+}
+footer {
+    text-align: left;
+    margin: 20px auto;
+}
+
+.menu-main {
+    background-color: rgb(120, 225, 120);
+    color: rgb(38, 98, 38);
+    text-decoration: none; /* убрать подчеркивание ссылки */
+    padding: 15px 20px; /* расширить "поле", чтобы кнопки выглядели крупнее */
+    border-radius: 10px; /* закругленные края */
+    border: 2px solid #0b1c12; /* сплошная граница */
+    transition-duration: 0.4s; /* сокрытие через интервал */
+}
+nav{
+    margin-top: 15px;
+}
+.menu-main:hover {
+    background-color: rgb(32, 208, 47);
+    color: #125f3a;
+}
+header {
+    width: 100%;
+}
+main {
+    margin:0 auto;
+    max-width: 960px;
+}
+#vse img {
+
+}
+
+#vse h1 {
+    margin-top: 60px; 
+}
+
+#main-menu {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    flex-direction: column;
+}
+
+#main-name {
+    font-size: 350%;
+    color: #99c0a6;
+}
+
+#main-logo {
+    width: 30%;
+}
+#copyright {
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    font-size: 110%;
+} #vse{
+    background-color: #083716;
+}
+#end{
+    background-color: #104827;
+}
+#main-header {
+    max-width:960px;
+    margin:0 auto;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+#absolute{
+    display: flex;
+    flex-direction: column;
+}
+#formwrapp{
+    order: 1;
+}
+#tablewrapp{
+    order: 2;
+}
+
+ 
+
+@media screen and (min-width:800px){
+
+    #formwrapp{
+        order: 2;
+    }
+    #tablewrapp{
+        order: 1;
+    }
+    
+    #vse h1 {
+        margin-top: 140px; 
+    }
+    #main-menu {
+        flex-direction: row;
+    }
+}
