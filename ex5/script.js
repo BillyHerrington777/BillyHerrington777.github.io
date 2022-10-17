@@ -10,19 +10,20 @@ function onClick() {
     let checkCost = cost[0].value.match(re);
 
     if (amount[0].value === "" || cost[0].value === "") {
-        result.style.color = "Black";
-        result.innerHTML = "ЗАПОЛНИ ВСЕ ПОЛЯ!";
+        result.style.color = "green";
+        result.innerHTML = "Заполните все поля";
     } else if (checkAmount === null && checkCost === null) {
         result.style.color = MY_COLOR;
         let intAmount = parseInt(amount[0].value);
         let intCost = parseInt(cost[0].value);
-        result.innerHTML = "Итоговый результат: " + intAmount * intCost;
+        result.innerHTML = "Я вам насчитал тут: " + intAmount * intCost;
     } else {
-        result.style.color = "black";
-        result.innerHTML = "Как ты будешь перемножать буквы?!";
+        result.style.color = "green";
+        result.innerHTML = "Нужно вводить цифры";
     }
 }
+
 window.addEventListener("DOMContentLoaded", function () {
-    let btn = document.getElementById("btn-calc");s
+    let btn = document.getElementById("btn-calc");
     btn.addEventListener("click", onClick);
 });
