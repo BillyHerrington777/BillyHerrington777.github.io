@@ -24,6 +24,6 @@ function onClick() {
 }
 
 window.addEventListener("DOMContentLoaded", function () {
-    let btn = document.getElementById("btn-calc");
+    let btn = document.getElementById("btn-calculator");
     btn.addEventListener("click", onClick);
 });
