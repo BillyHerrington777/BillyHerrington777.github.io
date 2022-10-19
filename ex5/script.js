@@ -16,7 +16,7 @@ function onClick() {
         result.style.color = MY_COLOR;
         let intAmount = parseInt(amount[0].value);
         let intCost = parseInt(cost[0].value);
-        result.innerHTML = "Я вам насчитал тут: " + intAmount * intCost;
+        result.innerHTML = "Итоговый ответ: " + intAmount * intCost;
     } else {
         result.style.color = "green";
         result.innerHTML = "Нужно вводить цифры";
