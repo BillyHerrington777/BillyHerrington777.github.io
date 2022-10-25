@@ -7,3 +7,7 @@ body{
 main {
     max-width: 960px;
 }
+
+#prod-radios, #prod-checkbox, #amount {
+    display: none;
+}
