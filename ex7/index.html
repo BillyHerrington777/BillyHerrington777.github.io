@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <script src="script.js" defer></script>
+    <script src="jquery-3.4.1.min.js"></script>
+    <link rel="stylesheet" href="Bootstrap/css/bootstrap.min.css">
+    <link href="slickcar/slick/slick.css" rel="stylesheet">
+    <link href="slickcar/slick/slick-theme.css" rel="stylesheet">
+    <style>
+      .main-header{
+      width: 100px;
+        }
+	    body{
+	      background-color:hsl(120, 16%, 44%);}
+    </style>
+    <meta charset="UTF-8">
+    <title> Упражнение 7 </title>
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width initial-scale=1">
+ </head>
+ <body class="m-0">
+<main class="mx-auto my-0">
+    <div class="order-3 mt-3 mt-md-5">
+      <h3 id="calc-name">JS калькулятор</h3>
+      <form id="calc-form" class="mt-3">
+        Выберете себе мебель <br><br>
+          <label>
+            <select name="prod-type">
+              <option disabled selected>Тип товара</option>
+              <option value="0">
+                Стол
+              </option>
+              <option value="1">
+                Стул
+              </option>
+              <option value="2">
+                Диван
+              </option>
+            </select>
+          </label><br>
+          <div class="mt-3" id="prod-radios">
+            <label>
+              <input type="radio" name="size" value="0">
+              черный
+            </label>
+            <label>
+              <input type="radio" name="size" value="1">
+              белый
+            </label>
+          </div>
+          <div class="mt-3" id="prod-checkbox">
+            Хотите доставку на дом?
+            <input type="checkbox" name="home">
+          </div><br>
+
+          <div id="amount">
+            Количество товара:<br>
+            <input class="calc-input mt-2" name="prod-amount" type="text">
+          </div><br>
+          <div id="purchase"></div><br><br>
+
+      <label>
+        Количество:<br>
+        <input class="calc-input mt-1" name="amount" type="text">
+      </labeL><br><br>
+      <label>
+        Стоимость:<br>
+        <input class="calc-input mt-1" name="cost" type="text">
+      </label><br><br>
+      <label>
+        <button class="btn btn-calc" type="button" id="btn-calc">Итог:</button>
+      </labeL>
+    </form>
+
+    <div class="mt-4" id="result"></div>
+    </div>
+
+    <div class="mt-8 slider">
+      <div>
+        <img class="mx-auto" src="img/4esnok.png" alt="1">
+      </div>
+      <div>
+        <img class="mx-auto" src="img/cocacola.png" alt="2">
+      </div>
+      <div>
+        <img class="mx-auto" src="img/dota-2.png" alt="3">
+      </div>
+      <div>
+        <img class="mx-auto" src="img/flag-kazakhstana.png" alt="4">
+      </div>
+      <div>
+        <img class="mx-auto" src="img/iconka_globus.png" alt="5">
+      </div>
+      <div>
+        <img class="mx-auto" src="img/ikonka-bitkoin.png" alt="6">
+      </div>
+      <div>
+        <img class="mx-auto" src="img/ikonka-tehpodderzhka.png" alt="7">
+      </div>
+      <div>
+        <img class="mx-auto" src="img/luna-na-prozrachnom-fone-.png" alt="8">
+      </div>
+      <div>
+        <img class="mx-auto" src="img/meshok-s-dengami.png" alt="9">
+      </div>
+      <div>
+        <img class="mx-auto" src="img/seyf.png" alt="10">
+      </div>
+      <div>
+        <img class="mx-auto" src="img/shkolnyy-avtobus.png" alt="11">
+      </div>
+      <div>
+        <img class="mx-auto" src="img/smajlik-ded-moroz-460x512.png" alt="12">
+      </div>
+      <div>
+        <img class="mx-auto" src="img/smart-chasy.png" alt="13">
+      </div>
+      <div>
+        <img class="mx-auto" src="img/tiktok.png" alt="14">
+      </div>
+      <div>
+        <img class="mx-auto" src="img/vk.png" alt="15">
+      </div>
+      <div>
+        <img class="mx-auto" src="img/znachok-jelektronnoj-pochty.png" alt="16">
+      </div>
+    </div>
+			</main>
+      <script src="slickcar/slick/slick.min.js"></script>
+
+  </body>
+</html>

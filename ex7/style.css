@@ -1,0 +1,51 @@
+
+body{
+    font-family: roboto, sans-serif;
+}
+
+
+main {
+    max-width: 960px;
+}
+#prod-radios, #prod-checkbox, #amount {
+    display: none;
+}
+
+
+.slider img {
+    width: 100px;
+}
+
+.slick-dots {
+    // по умолчанию absolute и от слайдера не заработает
+    position: relative;
+
+    li {
+        margin: 10px 6px;
+    }
+	
+    li button {
+        width: 15px;
+        height: 15px;
+        border-radius: 50%;
+        background-color: rgb(3, 39, 12);
+    }
+
+    li.slick-active button {
+        background-color: rgb(117, 73, 18);
+    }
+}
+
+@include media-breakpoint-up(md) {
+    .slider {
+        margin-top: 100px;
+    
+        img {
+            width: 140px;
+        }
+    }
+
+    .slick-dots li {
+        margin: 10px 25px;
+    }
+}
