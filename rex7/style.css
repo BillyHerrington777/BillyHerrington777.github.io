@@ -1,0 +1,43 @@
+
+body{
+    font-family: roboto, sans-serif;
+}
+
+
+main {
+    max-width: 960px;
+}
+#prod-radios, #prod-checkbox, #amount {
+    display: none;
+}
+
+.input {
+	display: none;
+}
+.sliderImg {
+	display: none;
+}
+#sliderImg-1, #sliderImg-2{
+	display: block;
+}
+#button-right, #button-left{
+	background-color: rgb(62, 102, 57);
+}
+#button-right:hover, #button-left:hover{
+	font-weight: 1000;
+}
+#pager input{
+	display: none;
+}
+#pager {
+	gap:5%;
+}
+
+@media screen and (min-width:576px) {
+	main {
+		font-size: 16px;
+	}
+	#sliderImg-3, #sliderImg-4{
+		display: block;
+	}
+}
