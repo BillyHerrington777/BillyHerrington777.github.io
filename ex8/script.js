@@ -59,7 +59,7 @@ function sendForm(){
         }
     }
     else {
-        result.style.color="reв";
+        result.style.color="red";
         result.innerHTML="Заполните все поля и поставьте галочку в чекбоксе";
     }
 }
